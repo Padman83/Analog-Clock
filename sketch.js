@@ -5,7 +5,7 @@ let hoursRadius;
 let clockDiameter;
 
 function setup() {
-  createCanvas(1920, 1080);
+  createCanvas(window.innerWidth, window.innerHeight);
   stroke(255);
 
   let radius = min(width, height) / 2;
